@@ -1,0 +1,1 @@
+/home/juan/catkin_ws_2/devel/.private/imu_laser/share/imu_laser/cmake/imu_laserConfig-version.cmake

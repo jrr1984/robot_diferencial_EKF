@@ -1,0 +1,8 @@
+Symlinking /home/juan/catkin_ws_2/devel/./setup.sh
+Symlinking /home/juan/catkin_ws_2/devel/./setup.bash
+Symlinking /home/juan/catkin_ws_2/devel/./_setup_util.py
+Symlinking /home/juan/catkin_ws_2/devel/./env.sh
+Symlinking /home/juan/catkin_ws_2/devel/./setup.zsh
+Symlinking /home/juan/catkin_ws_2/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/juan/catkin_ws_2/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/juan/catkin_ws_2/devel/lib/pkgconfig/catkin_tools_prebuild.pc

@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target trajectory_controller[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/trajectory_controller.dir/src/TrajectoryFollower.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library /home/juan/catkin_ws_2/devel/.private/lazo_abierto_catedra/lib/libtrajectory_controller.so[0m
+[ 28%] Built target trajectory_controller
+[35m[1mScanning dependencies of target trajectory_generator[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/trajectory_generator.dir/src/trajectory_generator_node.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable /home/juan/catkin_ws_2/devel/.private/lazo_abierto_catedra/lib/lazo_abierto_catedra/trajectory_generator[0m
+[ 57%] Built target trajectory_generator
+[35m[1mScanning dependencies of target trajectory_follower[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/trajectory_follower.dir/src/trajectory_follower_node.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/trajectory_follower.dir/src/FeedForwardController.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/juan/catkin_ws_2/devel/.private/lazo_abierto_catedra/lib/lazo_abierto_catedra/trajectory_follower[0m
+[100%] Built target trajectory_follower

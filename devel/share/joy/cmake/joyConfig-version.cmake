@@ -1,0 +1,1 @@
+/home/juan/catkin_ws_2/devel/.private/joy/share/joy/cmake/joyConfig-version.cmake

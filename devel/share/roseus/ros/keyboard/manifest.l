@@ -1,0 +1,1 @@
+/home/juan/catkin_ws_2/devel/.private/keyboard/share/roseus/ros/keyboard/manifest.l

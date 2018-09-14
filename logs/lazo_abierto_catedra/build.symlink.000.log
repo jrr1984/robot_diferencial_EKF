@@ -1,0 +1,17 @@
+Symlinking /home/juan/catkin_ws_2/devel/share/lazo_abierto_catedra/cmake/lazo_abierto_catedraConfig-version.cmake
+Symlinking /home/juan/catkin_ws_2/devel/share/lazo_abierto_catedra/cmake/lazo_abierto_catedraConfig.cmake
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/execution/stages.py", line 174, in function_proxy
+    return function(logger, event_queue, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/jobs/catkin.py", line 291, in link_devel_products
+    source_hash = md5(open(os.path.realpath(source_file)).read().encode('utf-8')).hexdigest()
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 97: ordinal not in range(128)
+
+Stage `symlink` failed with arguments:
+  package: {'buildtool_export_depends': [], 'test_depends': [], 'exec_depends': [<catkin_pkg.package.Dependency object at 0x7f7f00831ec0>], 'build_depends': [<catkin_pkg.package.Dependency object at 0x7f7f00831d00>, <catkin_pkg.package.Dependency object at 0x7f7f00831e50>, <catkin_pkg.package.Dependency object at 0x7f7f00831f30>], 'licenses': ['TODO'], 'group_depends': [], 'doc_depends': [], 'filename': '/home/juan/catkin_ws_2/src/lazo_abierto_catedra/package.xml', 'version': '0.0.0', 'package_format': 1, 'exports': [], 'description': u'Taller de control de trayectoria a lazo abierto con un modelo de tracci\xf3n diferencial.', 'build_export_depends': [<catkin_pkg.package.Dependency object at 0x7f7f00831fa0>], 'maintainers': [<catkin_pkg.package.Person object at 0x7f7f0081eb50>], 'member_of_groups': [], 'authors': [], 'conflicts': [], 'buildtool_depends': [<catkin_pkg.package.Dependency object at 0x7f7f00840050>], 'version_compatibility': None, 'replaces': [], 'name': 'lazo_abierto_catedra', 'urls': []}
+  metadata_path: /home/juan/catkin_ws_2/.catkin_tools/profiles/default
+  devel_manifest_path: /home/juan/catkin_ws_2/.catkin_tools/profiles/default/packages/lazo_abierto_catedra
+  prebuild: False
+  package_path: lazo_abierto_catedra
+  dest_devel_path: /home/juan/catkin_ws_2/devel
+  source_devel_path: /home/juan/catkin_ws_2/devel/.private/lazo_abierto_catedra

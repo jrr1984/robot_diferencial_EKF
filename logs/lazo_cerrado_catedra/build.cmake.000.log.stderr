@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/juan/catkin_ws_2/devel/share/lazo_abierto_catedra/cmake/lazo_abierto_catedraConfig.cmake:113 (message):
+  Project 'lazo_abierto_catedra' specifies
+  '/home/juan/catkin_ws_2/src/lazo_abierto_catedra/include' as an include
+  dir, which is not found.  It does neither exist as an absolute directory
+  nor in
+  '/home/juan/catkin_ws_2/src/lazo_abierto_catedra//home/juan/catkin_ws_2/src/lazo_abierto_catedra/include'.
+  Report the problem to the maintainer 'tfischer <tfischer@@todo.todo>' and
+  request to fix the problem.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+

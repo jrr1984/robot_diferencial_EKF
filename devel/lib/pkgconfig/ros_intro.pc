@@ -1,0 +1,1 @@
+/home/juan/catkin_ws_2/devel/.private/ros_intro/lib/pkgconfig/ros_intro.pc

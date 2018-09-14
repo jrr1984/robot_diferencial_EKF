@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target localizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/localizer.dir/src/localizer_ekf.cpp.o[0m
+[01m[K/home/juan/catkin_ws_2/src/robmovil_ekf/src/localizer_ekf.cpp:[m[K In member function ‘[01m[Kvirtual void robmovil_ekf::LocalizerEKF::makeH()[m[K’:
+[01m[K/home/juan/catkin_ws_2/src/robmovil_ekf/src/localizer_ekf.cpp:169:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krelative_landmark[m[K’ was not declared in this scope
+     H(1,1) = -relative_landmark.getX() / sqrt(relative_landmark.getX()*relative_landmark.getX() + relative_landmark.getY()*relative_landmark.getY());
+[01;32m[K               ^[m[K
+CMakeFiles/localizer.dir/build.make:110: recipe for target 'CMakeFiles/localizer.dir/src/localizer_ekf.cpp.o' failed
+make[2]: *** [CMakeFiles/localizer.dir/src/localizer_ekf.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/localizer.dir/all' failed
+make[1]: *** [CMakeFiles/localizer.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

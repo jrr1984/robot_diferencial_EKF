@@ -1,0 +1,1 @@
+/home/juan/catkin_ws_2/devel/.private/robmovil_msgs/share/roseus/ros/robmovil_msgs/msg/TrajectoryPoint.l

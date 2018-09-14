@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target localizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/localizer.dir/src/localizer_ekf.cpp.o[0m
+[01m[K/home/juan/catkin_ws_2/src/robmovil_ekf/src/localizer_ekf.cpp:[m[K In member function ‘[01m[Ktf::Point robmovil_ekf::LocalizerEKF::measure2landmark(const Vector&)[m[K’:
+[01m[K/home/juan/catkin_ws_2/src/robmovil_ekf/src/localizer_ekf.cpp:288:46:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_x_robot[m[K’ was not declared in this scope
+   double landmark_rot_x = cos(robot_theta) * landmark_x_robot - sin(robot_theta) * landmark_y_robot;
+[01;32m[K                                              ^[m[K
+[01m[K/home/juan/catkin_ws_2/src/robmovil_ekf/src/localizer_ekf.cpp:288:84:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_y_robot[m[K’ was not declared in this scope
+   double landmark_rot_x = cos(robot_theta) * landmark_x_robot - sin(robot_theta) * landmark_y_robot;
+[01;32m[K                                                                                    ^[m[K
+CMakeFiles/localizer.dir/build.make:110: recipe for target 'CMakeFiles/localizer.dir/src/localizer_ekf.cpp.o' failed
+make[2]: *** [CMakeFiles/localizer.dir/src/localizer_ekf.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/localizer.dir/all' failed
+make[1]: *** [CMakeFiles/localizer.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

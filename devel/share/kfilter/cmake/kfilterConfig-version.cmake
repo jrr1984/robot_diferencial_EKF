@@ -1,0 +1,1 @@
+/home/juan/catkin_ws_2/devel/.private/kfilter/share/kfilter/cmake/kfilterConfig-version.cmake
